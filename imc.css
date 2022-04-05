@@ -1,0 +1,53 @@
+.centro{
+    position: absolute;
+    width: 511px;
+    height: 429px;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 650px;  
+    background: #C1DDE6; 
+}
+
+ h3 .centro{
+    position: absolute;
+    width: 202px;
+    height: 27px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    color: #000000; 
+}
+
+.centro form #altura{
+    position: absolute;
+    width: 330px;
+    height: 26px;
+    margin-left: -165px;   
+    background: #C4C4C4; 
+}
+
+.centro form #peso{
+    position: absolute;
+    width: 330px;
+    height: 26px;
+    margin-left: -165px;   
+    background: #C4C4C4; 
+}
+
+ .calcular {
+    position: absolute;
+    width: 105px;
+    height: 36px;
+    margin-top: 80px;
+    margin-left: -51px;
+    background: #C4C4C4;
+}
+
+p{
+    margin-top: 150px;
+    font-family: 'Inter';
+    font-style: italic;    
+}

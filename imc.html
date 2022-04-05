@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="imc.js"></script>
+    <link rel="stylesheet" type="text/css" href="imc.css">
+</head>
+<body>
+    <section>
+        <div class="centro">
+            <h1>CALCULADORA IMC</h1>
+            <form method="POST" onsubmit="return calcular()">
+                <h3>Digite Sua Altura:</h3>
+                <input id="altura" type="text" placeholder="Ex: 1.86"><br>
+
+                <h3>Digite Seu Peso:</h3>
+                <input id="peso" type="text" placeholder="Ex: 86.60"><br>
+
+                <input class="calcular" type="submit" value="Calcular"/>
+                <p id="imc"></p>
+            </form>        
+        </div>
+    </section>
+</body>
+</html>
